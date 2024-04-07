@@ -12,7 +12,7 @@ export function renderImages(imagesArr) {
       }) => {
         return `<li class="list-item">
      <a class="gallery-link" href ="${largeImageURL}">
-     <img src="${webformatURL}" alt="${tags}" class="gallery-image"
+     <img loading="lazy" src="${webformatURL}" alt="${tags}" class="gallery-image"
      </a>
      
       <ul class="information-list">

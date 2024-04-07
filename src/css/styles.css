@@ -134,3 +134,24 @@ input[type='text'] {
     transform: rotate(360deg);
   }
 }
+
+.button-more {
+  display: none;
+}
+.load-more {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 125px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background: #4e75ff;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
